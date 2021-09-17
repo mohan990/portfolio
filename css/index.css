@@ -13,29 +13,27 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
-.nav-bar{
-    background-color: var(--nav-bar);
-    width: 700px;
-    margin: auto;
-    padding: 20px;
-    
+li{
+    display: inline;
+
 }
-li,a{
+a{
     text-decoration: none;
-    display: inline; 
-    margin: 10px;
-    text-decoration: none;
-    background-color: var(--nav-item);
-    padding: 5px;
-    color: black;
-    font-weight: 500;
-    border-radius: 16px;
-   
 }
-a:hover{
-    background-color:  var(--nav-item-hover);
-}
-ul.list-style{
+ul{
     text-align: right;
-    
+}
+nav{
+    background-color: var(--nav-bar);
+    width: 600px;
+    margin: auto;
+    display: block;
+}
+@media (max-width:500px)
+{
+    nav{
+        width: 500px;
+        margin: auto;
+        
+    }
 }
