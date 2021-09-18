@@ -45,7 +45,7 @@ nav.nav-bar{
     border-radius: 5px;
     
 }
-.container{
+.container-body{
    max-width: 90%;
     margin: auto;
     
@@ -106,8 +106,9 @@ button{
     padding: 10px;
     text-align: center;
     text-transform: uppercase;
-    color: rgb(105, 105, 226);
+    color: black;
     border: none;
+    font-weight: bolder;
 
 }
 .btn
@@ -115,11 +116,11 @@ button{
     padding: 10px;
 }
 button:hover{
-    background-color: #34D399;
+    background: linear-gradient(to right,green,yellow);
 }
 a{
     text-decoration: none;
-    color: blue;
+    color:black;
 }
 .link-item:hover{
     color: #34D399;
@@ -129,6 +130,7 @@ a{
 {
     background-color: var(--nav-bar);
     padding: 2rem;
+    border-radius: 20px;
 }
 .foot-list{
     display: block;
@@ -142,4 +144,7 @@ a{
 }
 .foot-link{
     color: black;
+}
+.foot-link:hover{
+    color: #34D399;
 }

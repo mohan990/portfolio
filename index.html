@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
+    
     <title>Porfolio</title>
 </head>
 <body>
-    <nav class="container nav-bar">
+    <nav class="container-body nav-bar">
         <div class="navbar-brand"><a class="nav-link" href=""> Porfolio</a></div>
         <ul class="nav-list">
             <li  class="nav-list-item"><a class="link-item" href="index.html">Home</a></li>
@@ -17,21 +20,45 @@
         </ul>
     </nav>
     
-    <header class="container image-content">
+    <header class="container-body image-content">
         <img class="image-file" src="images/undraw_react_y7wq.svg" alt="">
             <h1>Mohan Prabhu <span style="color: rgb(72, 140, 230);"> The Web Developer</span></h1>
     </header>
 
-    <hr>
-    <div class="card container">
-<div class="tech content-p">
+    <div class="card container-body">
+        <div
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+      >
+      </div>
+<div  data-aos="fade-up"
+
+data-aos-delay="50"
+data-aos-duration="500"
+data-aos-easing="ease-in-out"
+data-aos-mirror="true"
+data-aos-once="false"
+data-aos-anchor-placement="top-center" class="tech  ">
     <h2>Technologies</h2>
     <span>I'm familair with HTML5, css3, git, javascript, nodeJs, ReactJs, Linux,
         Networking, Java, python and Web Hosting
     </span>
 </div>
 
-<div class="Projects content-p">
+<div  data-aos="fade-up"
+
+data-aos-delay="50"
+data-aos-duration="500"
+data-aos-easing="ease-in-out"
+data-aos-mirror="true"
+data-aos-once="false"
+data-aos-anchor-placement="top-center" class="Projects">
     <h2>Projects</h2>
     <span>I would like to Showcase my work and thus, you can see my projects hosted online
     </span>
@@ -42,16 +69,21 @@
 </div>
 </div>
 
-<footer class="foot container">
+<footer class="foot container-body">
     <div class="footer-end">
         <h1>Social media</h1>
         <ul class="foot-list">
-            <li class="foot-list-item"><a class="foot-link" href="">Github</a></li>
-            <li  class="foot-list-item"> <a class="foot-link"  href="">LinkedIn</a></li>
-            <li  class="foot-list-item"><a  class="foot-link" href="">Twitter</a></li>
+            <li class="foot-list-item"><a class="foot-link" href=""><i class="fa fa-github fa-2x"></i> Github</a></li>
+            <li  class="foot-list-item"> <a class="foot-link"  href=""><i class="fa fa-linkedin fa-2x"></i> LinkedIn</a></li>
+            <li  class="foot-list-item"><a  class="foot-link" href=""> <i class="fa fa-twitter-square fa-2x"></i> Twitter</a></li>
         </ul>
     </div>
 </footer>
- 
+<script src="https://use.fontawesome.com/522b441d2e.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 </body>
 </html>
