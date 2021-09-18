@@ -126,25 +126,33 @@ a{
     color: #34D399;
 }
 
-.footer-end
+.foot
 {
     background-color: var(--nav-bar);
     padding: 2rem;
     border-radius: 20px;
 }
 .foot-list{
-    display: block;
+   
     text-align: center;
+    
 }
 .foot-list-item{
     display: inline;
-    margin: 1rem;
     padding: 1rem;
-    
 }
 .foot-link{
     color: black;
 }
 .foot-link:hover{
     color: #34D399;
+}
+
+@media (max-width:440px)
+{
+    .foot-list-item{
+      display: block;
+      padding: 1rem;
+       
+    }
 }
