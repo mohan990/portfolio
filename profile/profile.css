@@ -1,0 +1,131 @@
+* {}
+
+.image-profile {
+    border-radius: 50%;
+
+}
+
+.inner-profile {
+    padding-top: 50px;
+    border-radius: 16px;
+    background-color: var(--nav-bar);
+    font-weight: 800;
+}
+
+.profile {
+    max-width: 30%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.profile-block {
+    background-color: var(--nav-item);
+    padding: 0.5rem;
+    margin: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.skill {
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.HTML {
+    background-color: red;
+    width: 85%;
+    color: white;
+
+    text-align: center;
+
+}
+
+.css {
+    background-color: rgb(130, 130, 243);
+    width: 70%;
+    color: white;
+    text-align: center;
+}
+
+.js {
+    background-color: rgb(221, 221, 41);
+    width: 50%;
+    color: white;
+    text-align: center;
+}
+
+.react {
+    background-color: rgb(41, 215, 221);
+    width: 35%;
+    color: white;
+    text-align: center;
+}
+
+.gnu {
+    background-color: rgb(7, 32, 80);
+    width: 50%;
+    color: white;
+    text-align: center;
+}
+
+.net {
+    background-color: rgb(48, 33, 43);
+    width: 50%;
+    color: white;
+    text-align: center;
+}
+
+.java {
+    background-color: rgb(157, 145, 158);
+    width: 40%;
+    color: white;
+    text-align: center;
+}
+
+.python {
+    background-color: rgb(114, 201, 111);
+    width: 40%;
+    color: white;
+    text-align: center;
+}
+
+.B4 {
+    background-color: rgb(135, 33, 167);
+    width: 60%;
+    color: white;
+    text-align: center;
+}
+@media(min-width:0px) and (max-width:425px){
+
+    .profile {
+        max-width: 100%;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    
+    }
+}
+@media(min-width:425px) and (max-width:768px){
+
+    .profile {
+        max-width: 70%;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    
+    }
+}
+@media(min-width:768px) and (max-width:992px){
+
+    .profile {
+        max-width: 70%;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    
+    }
+}
