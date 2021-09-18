@@ -143,7 +143,7 @@ a {
     color: #34D399;
 }
 
-.foot {
+footer.foot {
     background-color: var(--nav-bar);
     padding: 2rem;
     border-radius: 20px;
@@ -179,4 +179,8 @@ a {
         text-align: center;
         font-size: 10px;
     }
+}
+button.btn-play{
+    background-color: transparent;
+    border: 2px solid var(--nav-item);
 }
