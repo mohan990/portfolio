@@ -12,28 +12,135 @@
 }
 body{
     font-family: 'Montserrat', sans-serif;
+    max-width: 95%;
+    margin: auto;
+    width: 100%;
+    display: block;
 }
-li{
+.nav-list-item{
     display: inline;
+    font-size: 1rem;
 
+}
+.nav-link{
+    color: black;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+}
+.link-item{
+    text-decoration: none;
+    margin-right:20px;
+    color: black;
+    font-weight: 900;
+}
+.nav-list{
+    text-align: right;
+}
+nav.nav-bar{
+    background-color: var(--nav-bar);
+    
+    border-radius: 20px;
+    padding: 1rem;
+    border-radius: 5px;
+    
+}
+.container{
+   max-width: 90%;
+    margin: auto;
+    
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+h2{
+    padding: 50px;
+    text-align: center;
+}
+header{
+    padding: 30px;
+   
+}
+.image-file
+{
+    max-width: 50%;    
+    margin: auto;
+    display: block;
+
+}
+.card{
+    
+    
+    padding: 30px;
+    max-width: 60%;
+    margin: auto;
+    
+   
+}
+.Projects{
+ 
+    display: block;
+    padding: 20px;
+    background-color: rgb(231, 226, 226);
+    border-radius: 10px;
+    margin-top: 60px;
+    text-align: center;
+   
+
+   
+}
+.tech{
+   
+  
+    display: block;
+    padding: 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button{
+    background-color: var(--nav-item);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(105, 105, 226);
+    border: none;
+
+}
+.btn
+{
+    padding: 10px;
+}
+button:hover{
+    background-color: #34D399;
 }
 a{
     text-decoration: none;
+    color: blue;
 }
-ul{
-    text-align: right;
+.link-item:hover{
+    color: #34D399;
 }
-nav{
-    background-color: var(--nav-bar);
-    width: 600px;
-    margin: auto;
-    display: block;
-}
-@media (max-width:500px)
+
+.footer-end
 {
-    nav{
-        width: 375px;
-        margin: auto;
-        
-    }
+    background-color: var(--nav-bar);
+    padding: 2rem;
+}
+.foot-list{
+    display: block;
+    text-align: center;
+}
+.foot-list-item{
+    display: inline;
+    margin: 1rem;
+    padding: 1rem;
+    
+}
+.foot-link{
+    color: black;
 }
