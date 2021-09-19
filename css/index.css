@@ -76,7 +76,7 @@ header {
 }
 
 .image-file {
-    max-width: 50%;
+    max-width: 40%;
     margin: auto;
     display: block;
 
@@ -168,7 +168,7 @@ footer.foot {
     color: #34D399;
 }
 
-@media (max-width:440px) {
+@media (min-width:280px) and (max-width:440px) {
     .foot-list-item {
         display: block;
         padding: 1rem;
@@ -179,8 +179,25 @@ footer.foot {
         text-align: center;
         font-size: 10px;
     }
+    .image-file{
+       margin-top: 20vh;
+      
+    }
+    .card{
+        max-width: 100%;
+    }
 }
+
 button.btn-play{
     background-color: transparent;
     border: 2px solid var(--nav-item);
+}
+@media (max-width:280px)
+{
+    button.btn-play{
+        margin:5px;
+    }
+    .card{
+        max-width: 100%;
+    }
 }
