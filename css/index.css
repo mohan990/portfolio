@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
 }
+a.nav-link{
+    text-transform: uppercase;
+    }
 
 :root {
     --nav-bar: #EEF2FF;
@@ -201,3 +204,11 @@ button.btn-play{
         max-width: 100%;
     }
 }
+.image-file
+{
+    animation: myrotate 1s ;
+}
+@keyframes myrotate {
+   
+    100% {transform: rotate(360deg);}
+  }
