@@ -43,7 +43,7 @@ text-transform: uppercase;
     width: 85%;
     color: white;
     text-align: center;
-    animation: myhtml 2s;
+    animation: myhtml 2s linear;
 
 }
 
@@ -52,7 +52,7 @@ text-transform: uppercase;
     width: 70%;
     color: white;
     text-align: center;
-    animation: mycss 2s;
+    animation: mycss 2s linear;
 }
 
 .js {
@@ -60,7 +60,7 @@ text-transform: uppercase;
     width: 50%;
     color: white;
     text-align: center;
-    animation: myjs 2s;
+    animation: myjs 2s linear;
 }
 
 .react {
@@ -68,7 +68,7 @@ text-transform: uppercase;
     width: 35%;
     color: white;
     text-align: center;
-    animation: myreact 2s;
+    animation: myreact 2s linear;
 }
 
 
@@ -79,7 +79,7 @@ text-transform: uppercase;
     width: 50%;
     color: white;
     text-align: center;
-    animation: mynet 2s;
+    animation: mynet 2s linear;
 }
 
 .java {
@@ -87,7 +87,7 @@ text-transform: uppercase;
     width: 40%;
     color: white;
     text-align: center;
-    animation: myjava 2s;
+    animation: myjava 2s linear;
 }
 
 
@@ -97,7 +97,7 @@ text-transform: uppercase;
     width: 60%;
     color: white;
     text-align: center;
-    animation: myb4 2s;
+    animation: myb4 2s linear;
 }
 @media(min-width:0px) and (max-width:425px){
 
