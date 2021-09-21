@@ -4,9 +4,10 @@
     margin: 0;
     padding: 0;
 }
-a.nav-link{
+
+a.nav-link {
     text-transform: uppercase;
-    }
+}
 
 :root {
     --nav-bar: #EEF2FF;
@@ -182,33 +183,48 @@ footer.foot {
         text-align: center;
         font-size: 10px;
     }
-    .image-file{
-       margin-top: 20vh;
-      
+
+    .image-file {
+        
+        animation: myrotate 1.5s;
+        max-width: 100%;
+        margin: auto;
+        display: block;
+        margin-top: 20vh;
+
     }
-    .card{
+
+    .card {
         max-width: 100%;
     }
+
 }
 
-button.btn-play{
+button.btn-play {
     background-color: transparent;
     border: 2px solid var(--nav-item);
 }
-@media (max-width:280px)
-{
-    button.btn-play{
-        margin:5px;
+
+@media (max-width:280px) {
+    button.btn-play {
+        margin: 5px;
     }
-    .card{
+
+    .card {
         max-width: 100%;
     }
+
 }
-.image-file
-{
-    animation: myrotate 1s ;
+
+@media(min-width:768px) {
+    .image-file {
+        animation: myrotate 1.5s;
+    }
 }
+
 @keyframes myrotate {
-   
-    100% {transform: rotate(360deg);}
-  }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
