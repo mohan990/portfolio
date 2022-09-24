@@ -16,11 +16,11 @@ a.nav-link {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    max-width: 95%;
+    font-family: 'Times New Roman', Times, serif;
+    /* max-width: 95%;
     margin: auto;
     width: 100%;
-    display: block;
+    display: block; */
 }
 
 .nav-list-item {
@@ -50,7 +50,6 @@ body {
 
 nav.nav-bar {
     background-color: var(--nav-bar);
-
     border-radius: 20px;
     padding: 1rem;
     border-radius: 5px;
@@ -62,7 +61,6 @@ nav.nav-bar {
     margin: auto;
 
 }
-
 h1 {
     text-align: center;
     font-weight: bold;
@@ -75,7 +73,7 @@ h2 {
 }
 
 header {
-    padding: 30px;
+    /* padding: 30px; */
 
 }
 
@@ -87,31 +85,22 @@ header {
 }
 
 .card {
-
-
     padding: 30px;
     max-width: 60%;
     margin: auto;
-
-
+    margin-top: 20px;
 }
 
 .Projects {
-
     display: block;
     padding: 10px;
     background-color: #F3F4F6;
     border-radius: 10px;
-    margin-top: 60px;
+    /* margin-top: 200px; */
     text-align: center;
-
-
-
 }
 
 .tech {
-
-
     display: block;
     padding: 10px;
     border-radius: 10px;
@@ -154,11 +143,9 @@ footer.foot {
 }
 
 .foot-list {
-
     text-align: center;
 
 }
-
 .foot-list-item {
     display: inline;
     padding: 1rem;
@@ -170,6 +157,9 @@ footer.foot {
 
 .foot-link:hover {
     color: #34D399;
+}
+p{
+    line-height: 2rem;
 }
 
 @media (min-width:280px) and (max-width:440px) {
@@ -185,7 +175,7 @@ footer.foot {
     }
 
     .image-file {
-        
+
         animation: myrotate 1.5s;
         max-width: 100%;
         margin: auto;
